@@ -1,7 +1,42 @@
+Dependencies
+
 node_modules/
+
+Build output
+
 dist/
+
+Environment secrets
+
 .env
-**/.env
+.env.*
+*/.env
+/.env.
+!.env.example
+!/.env.example
+
+Database and backups
+
 *.db
 *.db-journal
-*.bak*
+*.sqlite
+*.sqlite3
+*.bak
+.bak
+
+Logs
+
+.log
+npm-debug.log
+
+Object files
+
+*.o
+
+Ada library information
+
+*.ali
+
+Git
+
+.git/
